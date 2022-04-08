@@ -1,0 +1,12 @@
+.navBar{
+    background-color: antiquewhite;
+    padding: 1%;
+    display: flex;
+    
+}
+
+.imgIpl{
+    width: 8%;
+    height: 8%;
+}
+

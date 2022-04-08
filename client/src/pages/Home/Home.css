@@ -1,0 +1,118 @@
+.table{
+    width: 100%;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+.thead{
+    border: 2px solid;
+    background-color: aqua;
+}
+
+.tr{
+    border: 2px solid;
+    padding: 5px;
+}
+
+.tr:hover{
+    background-color: gray;
+}
+
+.tdAction{
+    display: flex;
+    justify-content: space-around;
+    border-left:2px solid;
+}
+
+.btn-delete{
+    background-color: red;
+    border-radius: 5px;
+    padding: 1% 5%;
+    margin-right: 10%;
+    font-size: large;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-delete:hover{
+    background-color: gray;
+}
+
+.searchBar{
+    padding: 0.5%;
+    border-radius: 5px 0 0 5px ;
+    border: 2px solid;
+    border-right: 0;
+    margin-left: 2%;
+    padding-bottom: 10%;
+}
+.searchBar:hover,.btn-search:hover{
+    background-color: gray;
+}
+
+.searchForm,.divHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-search{
+    border-radius:0 5px 5px 0;
+    border: 2px solid;
+    border-left: 0;
+    width: 50%;
+    background-color: aqua;
+    cursor: pointer;
+    padding: 5%;
+}
+.ddLabel{
+    border: 2px solid;
+    border-right: 0;
+    padding: 0.5%;
+    border-radius: 5px 0 0 5px ;
+}
+
+.dropdown{
+    border: 2px solid;
+    border-left: 0;
+    background-color: rgb(0, 255, 170);
+    padding: 8%;
+    cursor: pointer;
+}
+
+.dropdownMenu{
+background-color: rgb(26, 119, 143);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.page-item{
+    margin: 0%;
+    border: 2px solid black;
+    list-style-type: none;
+    padding: 0.5%;
+    background-color: #d3e4f2;
+    cursor: pointer;
+    border-collapse: collapse;
+}
+
+.page-item:hover{
+    background-color: gray;
+}
+
+.active{
+    background-color: aqua;
+}
+.page-link{
+    color: blue;
+}
+  a:hover {
+    color: green;
+  }
+  
+  a:active {
+    color: red;
+  }
+

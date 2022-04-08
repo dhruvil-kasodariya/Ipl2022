@@ -1,0 +1,19 @@
+.div{
+    margin: 0% 40%;
+    padding: 0;
+    background-color: gray;
+}
+
+.h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+strong{
+    font-size: large;
+}
+
+.cardTable{
+    border-top: 2px solid red;
+    width: 100%;
+}

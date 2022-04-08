@@ -1,0 +1,33 @@
+.input{
+    width: 100%;
+    padding: 2%;
+}
+
+.btn-submit {
+    background-color: #1267e6;
+    padding: 8px;
+    width: 45%;
+    color: azure;
+    cursor: pointer;
+  }
+  .btn-reset{
+    background-color: black;
+    padding: 8px;
+    width: 45%;
+    color: azure;
+    cursor: pointer;
+  }
+
+  .btn-div{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .ddTeam{
+    width: 100%;
+    padding: 2%;
+  }
+
+  .radioDiv{
+    display: inline;
+  }
